@@ -1,0 +1,66 @@
+       body {
+            background-color: rgb(39, 39, 39);
+            width: 1000px;
+            height: 1400px;
+            margin: 0 auto;
+            
+       }
+       div {
+        background-color: rgb(63, 63, 63);
+        display: block;
+        padding: 15px 25px;
+       }
+       h1 {
+            text-align: center;
+            background-color: rgb(255, 174, 208);
+            padding: 15px 25px;
+            color: rgb(252, 252, 252);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 40px;
+        }
+        p {
+            color: rgb(255, 255, 255);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 14px;
+        }
+        h2 {
+            color: rgb(240, 159, 193);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        } 
+        header {
+
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serifS;
+            font-size: 20px;
+        }
+        ul {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 16px;
+        }
+        
+        a:link {
+            color: rgb(255, 255, 255);
+        }
+        a:visited {
+            color: rgb(114, 114, 114);
+            background-color: transparent;
+        }
+        a:link, a:visited {
+            background-color: #ff93c5;
+            color: white;
+            padding: 15px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+        a:hover {
+            color: rgb(104, 113, 114);
+            background-color: #ff93c5; 
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .content {
+            max-width: 300px;
+            margin: auto;
+        }
