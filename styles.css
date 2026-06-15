@@ -1,17 +1,20 @@
        body {
             background-color: rgb(255, 174, 208);
-            width: 1000px;
-            height: 1400px;
-            margin: 0 auto;
+            padding: 0px;
+            margin: 0px;
         }
             
-
-        .nav-pills {
-            display: flex;
+        .navbar {
             justify-content: center;
+            navbar-expand-lg {
+                display: flex;
+                justify-content: center;
+            }
+        }
+        .nav {
+            display: flex;
             list-style-type: none;
             font-size: 1.2em;
-            padding-top: 20px;
             .nav-link.active {
                 background-color: #ff93c5;
                 color: rgb(0, 0, 0);
@@ -23,10 +26,19 @@
            
         }
 
-        .nav-pills>li {
+        .nav>li {
             padding: 10px 2px;
         }
        
+        .img-fluid {
+            max-width: 50%;
+            height: auto;
+        }
+
+        .container-fluid {
+            padding: 5px;
+        }
+
        div {
         background-color: rgb(63, 63, 63);
         display: block;
@@ -78,10 +90,7 @@
             color: rgb(104, 113, 114);
             background-color: #ff93c5; 
         }
-        img {
-            max-width: 100%;
-            height: auto;
-        }
+     
         .content {
             max-width: 300px;
             margin: auto;
