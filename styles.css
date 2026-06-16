@@ -1,5 +1,5 @@
        body {
-            background-color: rgb(255, 174, 208);
+            background-color: rgb(255, 201, 223);
             padding: 0px;
             margin: 0px;
         }
@@ -30,7 +30,7 @@
             padding: 10px 2px;
         }
        
-        .img-fluid {
+        .img-fluid-start {
             max-width: 50%;
             height: auto;
         }
@@ -44,6 +44,12 @@
         display: block;
         padding: 15px 25px;
        }
+
+       h4 {
+            color: rgb(255, 255, 255);
+            
+        }
+
        h1 {
             text-align: center;
             background-color: rgb(255, 174, 208);
