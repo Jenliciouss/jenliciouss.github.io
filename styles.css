@@ -1,7 +1,10 @@
+       @import url('https://fonts.googleapis.com/css2?family=Elms+Sans:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+       
        body {
             background-color: rgb(255, 201, 223);
             padding: 0px;
             margin: 0px;
+            font-family: 'Elms Sans', sans-serif;
         }
             
         .navbar {
@@ -48,32 +51,30 @@
        h4 {
             color: rgb(255, 255, 255);
             
+            
         }
 
        h1 {
             text-align: center;
-            background-color: rgb(255, 174, 208);
+            background-color: rgb(255, 201, 223);
             padding: 15px 25px;
             color: rgb(252, 252, 252);
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            font-size: 40px;
+            font-size: 30px;
         }
         p {
             color: rgb(255, 255, 255);
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-size: 14px;
         }
         h2 {
-            color: rgb(240, 159, 193);
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: rgb(255, 201, 223);
         } 
         header {
 
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serifS;
             font-size: 20px;
         }
+        
         ul {
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            
             font-size: 16px;
         }
         
